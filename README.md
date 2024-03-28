@@ -1,5 +1,7 @@
-# wordfreq
- Count Frequency of Words and Print Them in Sorted Order
+# Count Frequency of Words and Print Them in Sorted Order
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://https://github.com/Melkor-1/pyva/edit/main/LICENSE)
+
 
 ## Objective:
 Write a program to count the frequencies of unique words from standard input, then print them out with their frequencies, ordered most frequent first. For example, given this input:
