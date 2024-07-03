@@ -25,7 +25,7 @@ static int cmp_func(const void *a, const void *b)
     const count *const p = *(const count * const *) a;
     const count *const q = *(const count * const *) b;
     
-    const int cmp = (p->value < q->value) - (p->value > q->value);
+    int cmp = (p->value < q->value) - (p->value > q->value);
 
     if (cmp == 0) {
         cmp = (p < q) - (p > q); /* Compare pointers. */
